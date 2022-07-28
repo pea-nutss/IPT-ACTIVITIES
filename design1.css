@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700&,800,900&display=swap');
+*
+
+/* Home */
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body
+{
+min-height: 100vh;
+overflow: auto;
+background-image: url('bg.jpg');
+background-attachment: fixed;
+}
+header
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 10000;
+}
+header .nut
+{
+color: #fff;
+font-weight: 700;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+header ul
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header ul li
+{
+list-style: none;
+margin-left: 20px;
+}
+header ul li a
+{
+text-decoration: none;
+padding: 6px 15px;
+color: #fff;
+border-radius: 20px;
+}
+header ul li a:hover ,
+header ul li a.active
+{
+background: #fff;
+color: #2b1055;
+}
+
+.picss img
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+
+/* Favorites */
+.cen
+{
+    position: relative;
+    align-self: center;
+    margin-top: 100px;
+    color: #787586;
+    
+}
+.b
+{
+    color: #fff;
+}
+
+hr{
+    color: rgb(8,10,0);
+   }
+
+.picss :hover {transform: scale(1.1);}
